@@ -54,8 +54,8 @@
     
 
     <div class="action-btn-container">
-      <button type="button" class="cancel-btn" @click="$emit('closeModal')">Cancel</button>
-      <button type="submit" class="btn save-btn" @click="$emit('addUser', user)">Create User</button>
+      <button type="button" class="cancel-btn" @click="closeModal">Cancel</button>
+      <button type="submit" class="btn save-btn" @click="adduser">Create User</button>
     </div>
   </b-modal>
 </template>
@@ -75,6 +75,26 @@ export default {
         email: '',
         birthday: '',
       }
+    }
+  },
+  methods: {
+    adduser() {
+      this.$emit('addUser', this.user)
+      this.clearFields()
+    },
+    closeModal() {
+      this.$emit('closeModal')
+      this.clearFields()
+    },
+    clearFields() {
+      this.$nextTick(() => {
+        this.user = {}
+      })
+    }
+  },
+  watch: {
+    show () {
+      this.clearFields()
     }
   }
 }
