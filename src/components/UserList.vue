@@ -41,7 +41,7 @@ export default {
       sortDesc: false,
       sortDirection: 'asc',
       fields: [
-        { key: 'id', label: 'ID', sortable: false, class: 'id-max-width' },
+        { key: 'id', label: 'ID', sortable: true, class: 'id-max-width' },
         { key: 'full_name', label: 'Name', sortable: true, class: 'name-max-width' },
         { key: 'email', label: 'Email', sortable: true, class: 'email-max-width' },
         { key: 'birthday', label: 'Date of Birth', sortable: true, class: 'birthday-max-width' }
