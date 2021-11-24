@@ -1,0 +1,33 @@
+{
+  "data" : [{
+    "id": 1,
+    "full_name": "Perren Ilyuchyov",
+    "email": "pilyuchyov0@yahoo.co.jp",
+    "birthday": "1998-01-31"
+  }, {
+    "id": 2,
+    "full_name": "Allie Pinnigar",
+    "email": "apinnigar1@unicef.org",
+    "birthday": "1998-03-17"
+  }, {
+    "id": 3,
+    "full_name": "Timmie Dent",
+    "email": "tdent2@vimeo.com",
+    "birthday": "1996-09-04"
+  }, {
+    "id": 4,
+    "full_name": "Valerie Kropp",
+    "email": "vkropp3@who.int",
+    "birthday": "1997-09-10"
+  }, {
+    "id": 5,
+    "full_name": "Bari Scrinage",
+    "email": "bscrinage4@macromedia.com",
+    "birthday": "1996-06-02"
+  }, {
+    "id": 6,
+    "full_name": "Vachel Kelleway",
+    "email": "vkelleway5@friendfeed.com",
+    "birthday": "1998-02-25"
+  }]
+}
